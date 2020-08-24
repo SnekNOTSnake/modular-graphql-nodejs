@@ -1,6 +1,6 @@
 # A scalable, modular structure for your GraphQL Node.js API
 
-Based on <https://github.com/mikevercoelen/codersmind-scalable-graphql-node-api/blob/master/README.md>
+Based on <https://github.com/mikevercoelen/codersmind-scalable-graphql-node-api>
 
 ## Codersmind
 
