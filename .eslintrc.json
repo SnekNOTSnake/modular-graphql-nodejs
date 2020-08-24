@@ -1,0 +1,13 @@
+{
+	"env": {
+		"es6": true,
+		"node": true,
+		"mocha": true
+	},
+	"extends": ["standard", "prettier"],
+	"plugins": ["prettier"],
+	"rules": {
+		"no-console": ["warn"],
+		"prettier/prettier": ["warn"]
+	}
+}
