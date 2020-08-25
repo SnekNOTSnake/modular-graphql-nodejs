@@ -56,6 +56,10 @@ const getMongo = ({ mongoUrl, dropDatabase = true, connectionWhitelist }) => {
 			}),
 		)
 
+		await mongoose.disconnect()
+
+		hasConnected = false
+
 		// eslint-disable-next-line no-console
 		console.log('Mongoose connection closed')
 	}
